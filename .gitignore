@@ -1,2 +1,7 @@
 .UNLOCK
-images/bulk/
+images/bulk/*_raw.png
+images/bulk/_*.json
+images/bulk/_*.log
+# Test variants (development experiments — not for production)
+images/bulk/*_v[0-9]_*.png
+images/bulk/*_v[0-9][0-9]_*.png
